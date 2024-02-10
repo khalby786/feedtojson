@@ -19,7 +19,7 @@ GET https://feedtojson.vercel.app/your-feed-url-here
 
 ### RSS
 
-[`https://xkcd.com/rss.xml`](https://feedtojson.vercel.app/https://xkcd.com/rss.xml)
+[`https://xkcd.com/rss.xml`](https://xkcd.com/rss.xml)
 
 ```json
 {
@@ -38,7 +38,7 @@ GET https://feedtojson.vercel.app/your-feed-url-here
 
 ### Atom
 
-[`https://xkcd.com/atom.xml`](https://feedtojson.vercel.app/https://xkcd.com/atom.xml)
+[`https://xkcd.com/atom.xml`](https://xkcd.com/atom.xml)
 
 ```json
 {
@@ -58,7 +58,7 @@ GET https://feedtojson.vercel.app/your-feed-url-here
 
 ### JSON
 
-[`https://www.jsonfeed.org/feed.json`](https://feedtojson.vercel.app/https://www.jsonfeed.org/feed.json)
+[`https://www.jsonfeed.org/feed.json`](https://www.jsonfeed.org/feed.json)
 
 ```json
 {
