@@ -2,8 +2,8 @@ package handler
 
 import (
 	"encoding/json"
-	"fmt"
 	"net/http"
+	"net/url"
 
 	"github.com/mmcdole/gofeed"
 )
@@ -11,8 +11,9 @@ import (
 func Handler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
-	url := r.URL.Path[1:]
-	fmt.Println(url)
+	path := r.URL.Path[1:]
+	url, err := url.QueryUnescape(path)
+
 	if url == "" {
 		jsonErr := make(map[string]string)
 		jsonErr["message"] = "No valid RSS URL found."

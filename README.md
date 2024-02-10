@@ -9,6 +9,14 @@ a simple API that parses RSS, Atom and JSON feeds using [gofeed](https://github.
 GET https://feedtojson.vercel.app/your-feed-url-here
 ```
 
+<br>
+
+> [!WARNING]  
+> If the feed URL gets normalised and invalidated during the API call, you can provide an encoded URL instead.
+> ```
+> GET https://feedtojson.vercel.app/https%3A%2F%2Fxkcd.com%2Frss.xml
+> ```
+
 ### RSS
 
 [`https://xkcd.com/rss.xml`](https://feedtojson.vercel.app/https://xkcd.com/rss.xml)
