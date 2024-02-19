@@ -9,8 +9,11 @@ a simple API that parses RSS, Atom and JSON feeds using [gofeed](https://github.
 `GET https://feedtojson.vercel.app/your-feed-url-here`
 
 [`https://feedtojson.vercel.app/https%3A%2F%2Fxkcd.com%2Frss.xml`](https://feedtojson.vercel.app/https%3A%2F%2Fxkcd.com%2Frss.xml)
+
 [`https://feedtojson.vercel.app/https%3A%2F%2Fxkcd.com%2Fatom.xml`](https://feedtojson.vercel.app/https%3A%2F%2Fxkcd.com%2Fatom.xml)
+
 [`https://feedtojson.vercel.app/https%3A%2F%2Fwww.jsonfeed.org%2Ffeed.json`](https://feedtojson.vercel.app/https%3A%2F%2Fwww.jsonfeed.org%2Ffeed.json)
+
 
 
 ### RSS
